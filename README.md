@@ -1,9 +1,11 @@
  📊 Proyecto de Análisis de Churn en Telecomunicaciones
  
 🌟 Visión General
+
 Este proyecto analiza estratégicamente los patrones de abandono de clientes (Churn) en el sector telecomunicaciones, combinando técnicas avanzadas de análisis de datos con visualizaciones interactivas para identificar factores críticos y proponer soluciones accionables.
 
 🎯 Objetivos Clave
+
 🔍 Identificar drivers principales del Churn con análisis estadístico riguroso
 
 📈 Desarrollar modelo predictivo con >85% de precisión
