@@ -51,9 +51,13 @@ Ejecutar análisis completo:
 
 bash
 jupyter notebook notebooks/1_limpieza_preprocesamiento.ipynb
+
 📂 Estructura del Proyecto (Detallada)
+
 telecom-churn-analysis/
+
 ├── data/
+
 │   ├── raw/                   # Datos originales sin modificar
 │   │   ├── telecom_raw.csv    # Dataset inicial
 │   │   └── metadata.json     # Diccionario de datos
@@ -63,12 +67,14 @@ telecom-churn-analysis/
 │       └── features_final.csv
 │
 ├── notebooks/
+
 │   ├── 1_data_cleaning.ipynb       # Limpieza y feature engineering
 │   ├── 2_eda.ipynb                 # Análisis exploratorio
 │   ├── 3_correlation_analysis.ipynb # Análisis de correlación
 │   └── 4_model_training.ipynb      # Modelado predictivo
 │
 ├── src/
+
 │   ├── data/
 │   │   ├── cleaner.py         # Funciones de limpieza
 │   │   └── preprocessor.py    # Pipeline de transformación
@@ -82,6 +88,7 @@ telecom-churn-analysis/
 │       └── custom_plots.py    # Visualizaciones avanzadas
 │
 ├── reports/
+
 │   ├── technical_report.pdf   # Documentación técnica
 │   └── business_summary.pdf   # Resumen ejecutivo
 │
@@ -89,7 +96,9 @@ telecom-churn-analysis/
 ├── LICENSE
 ├── README.md                  # Este archivo
 └── requirements.txt           # Dependencias
+
 🔍 Hallazgos Clave (Detallados)
+
 1. Factores Críticos de Churn
 Factor	Impacto (% Churn)	Correlación
 Contrato Mes a Mes	43%	+0.41
@@ -104,6 +113,7 @@ Distribución de Churn por Segmentos (FacetGrid)
 Impacto Acumulado de Factores (Waterfall Chart)
 
 💼 Casos de Uso Empresarial
+
 Alertas Tempranas:
 
 Sistema de scoring para identificar clientes de alto riesgo
@@ -117,6 +127,7 @@ Optimización de Servicios:
 Recomendación inteligente de servicios adicionales
 
 🤝 Cómo Contribuir
+
 Reportar issues usando la plantilla proporcionada
 
 Proponer mejoras mediante Pull Requests
@@ -126,7 +137,9 @@ Seguir el flujo de trabajo Git Flow
 Mantener cobertura de tests >80%
 
 bash
+
 # Ejemplo flujo contribución:
+
 git checkout -b feature/nueva-funcionalidad
 # Realizar cambios...
 git add .
