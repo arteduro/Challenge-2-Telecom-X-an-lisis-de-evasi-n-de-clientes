@@ -15,12 +15,15 @@ Este proyecto analiza estratégicamente los patrones de abandono de clientes (Ch
 📊 Crear dashboard interactivo para monitoreo continuo
 
 🛠️ Stack Tecnológico
+
 Categoría	Tecnologías
-Lenguaje	Python
-Procesamiento	Pandas, NumPy
-Visualización	Matplotlib, Seaborn, Plotly
-Modelado	Scikit-learn
-Productividad	Jupyter, VS Code
+
+Lenguaje 	Python
+Procesamiento 	Pandas, NumPy
+Visualización 	Matplotlib, Seaborn, Plotly
+Modelado	 Scikit-learn
+Productividad	 Jupyter, VS Code
+
 🚀 Guía Rápida de Implementación
 Prerrequisitos
 Python 3.9+
